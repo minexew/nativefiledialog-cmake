@@ -1,6 +1,6 @@
 # Native File Dialog CMake
 
-Is this fork I removed Premake and other build system and I added 
+In this fork I replaced Premake and other build system with CMake
 
 For more information look at the original [README.md](https://github.com/mlabbe/nativefiledialog/blob/5cfe5002eb0fac1e49777a17dec70134147931e2/README.md)
 
