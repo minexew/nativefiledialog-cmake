@@ -41,3 +41,26 @@ int main( void )
     return 0;
 }
 ```
+
+See [NFD.h](src/include/nfd.h) for more options.
+
+# Screenshots #
+
+![Windows 8 rendering an IFileOpenDialog](screens/open_win.png?raw=true)
+![GTK3 on Linux](screens/open_gtk3.png?raw=true)
+![Cocoa on Yosemite](screens/open_cocoa.png?raw=true)
+
+## Changelog ##
+
+release | what's new                  | date
+--------|-----------------------------|---------
+1.0.0   | initial                     | oct 2014
+1.1.0   | premake5; scons deprecated  | aug 2016
+1.1.1   | mingw support, build fixes  | aug 2016
+1.1.2   | test_pickfolder() added     | aug 2016
+1.1.3   | zenity linux backend added  | nov 2017
+1.1.3   | fix char type in decls      | nov 2017
+1.1.4   | fix win32 memleaks          | dec 2018
+1.1.4   | improve win32 errorhandling | dec 2018
+1.1.4   | macos fix focus bug         | dec 2018
+
