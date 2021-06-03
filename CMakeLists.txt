@@ -1,3 +1,5 @@
+project(NativeFileDialog C)
+
 include(CheckIncludeFile)
 set(SOURCES src/nfd_common.c)
 
